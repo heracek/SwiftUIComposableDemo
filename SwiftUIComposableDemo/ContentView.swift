@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUIComposableDemo
-//
-//  Created by Tomáš Horáček on 20.07.2021.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -14,8 +7,12 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+#if DEBUG
+
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
+
+#endif
