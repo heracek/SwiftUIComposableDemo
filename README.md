@@ -14,6 +14,7 @@
 
 ## SwiftUI
 
+- [Free SwiftUI Book](https://www.bigmountainstudio.com/free-swiftui-book)
 - [Demystify SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10022/)
 
 ## Swift Composable Architecture
